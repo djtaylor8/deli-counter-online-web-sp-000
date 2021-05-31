@@ -2,7 +2,7 @@ def line(array)
   if array == []
     puts "The line is currently empty."
   else
-    puts array
+    puts "The line is currently: #{array.split(",")}"
   end
 end
 

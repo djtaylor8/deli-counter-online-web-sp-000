@@ -16,7 +16,7 @@ def take_a_number(array, name)
     puts "Welcome, #{name}. You are number 1 in line."
   else
     array.push(name)
-    puts "Welcome, #{name}. You are number #{array[-1]} in line"
+    puts "Welcome, #{name}. You are number #{array[-1].to_i} in line."
   end
 end
 

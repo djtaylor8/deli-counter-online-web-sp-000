@@ -10,8 +10,10 @@ def line(array)
   end
 end
 
-def take_a_number()
-
+def take_a_number(array, name)
+  if array == []
+    puts "Welcome, #{name}. You are number 1 in line."
+  end
 end
 
 def now_serving()

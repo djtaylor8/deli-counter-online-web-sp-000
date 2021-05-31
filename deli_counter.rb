@@ -2,7 +2,9 @@ def line(array)
   if array == []
     puts "The line is currently empty."
   else
-    puts "The line is currently: #{array.join('1.')}"
+    array.each do |name|
+      
+    puts "The line is currently: #{array[index + 1]}. #{array.join(' ')}"
   end
 end
 
